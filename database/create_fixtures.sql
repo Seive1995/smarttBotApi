@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS numbers (
+    Moeda VARCHAR(50) NOT NULL,
+    Periodicidade TIME NOT NULL,
+    DateTime DATETIME NOT NULL,
+    Open DECIMAL NOT NULL,
+    Low DECIMAL NOT NULL,
+    High DECIMAL NOT NULL,
+    Close DECIMAL NOT NULL
+);

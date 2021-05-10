@@ -1,0 +1,4 @@
+--repository does not exist or may require 'docker login'
+#sudo apt-get install postgresql-12
+	
+	
