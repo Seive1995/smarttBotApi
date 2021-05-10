@@ -39,13 +39,112 @@ Attaching to smarttbotapi_app_1, smarttbotapi_db_1
 [33mdb_1   |[0m 
 [33mdb_1   |[0m PostgreSQL Database directory appears to contain a database; Skipping initialization
 [33mdb_1   |[0m 
-[33mdb_1   |[0m 2021-05-10 22:31:11.673 UTC [1] LOG:  starting PostgreSQL 13.2 (Debian 13.2-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
-[33mdb_1   |[0m 2021-05-10 22:31:11.688 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
-[33mdb_1   |[0m 2021-05-10 22:31:11.688 UTC [1] LOG:  listening on IPv6 address "::", port 5432
-[33mdb_1   |[0m 2021-05-10 22:31:11.723 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
-[33mdb_1   |[0m 2021-05-10 22:31:11.761 UTC [25] LOG:  database system was shut down at 2021-05-10 22:30:28 UTC
-[33mdb_1   |[0m 2021-05-10 22:31:11.886 UTC [1] LOG:  database system is ready to accept connections
+[33mdb_1   |[0m 2021-05-10 22:34:25.260 UTC [1] LOG:  starting PostgreSQL 13.2 (Debian 13.2-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+[33mdb_1   |[0m 2021-05-10 22:34:25.276 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[33mdb_1   |[0m 2021-05-10 22:34:25.277 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+[33mdb_1   |[0m 2021-05-10 22:34:25.284 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[33mdb_1   |[0m 2021-05-10 22:34:25.294 UTC [25] LOG:  database system was shut down at 2021-05-10 22:31:21 UTC
+[33mdb_1   |[0m 2021-05-10 22:34:25.749 UTC [1] LOG:  database system is ready to accept connections
 [36mapp_1  |[0m Application started
-[36mapp_1  |[0m DateTime:  2021-05-10 22:31:15.347490
+[36mapp_1  |[0m DateTime:  2021-05-10 22:34:29.463853
 [36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:35:00.747287
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 5 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:36:00.634884
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:37:00.586102
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:38:00.505929
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:39:00.555305
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:40:02.322851
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 5 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 10 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:41:01.764919
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:42:01.221163
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:43:01.219936
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:44:00.186355
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:45:00.277027
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 5 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:46:00.197200
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:47:00.660739
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:48:01.436391
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:49:00.900580
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:50:00.865261
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 5 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 10 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:51:00.431739
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:52:00.535743
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:53:01.160139
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:54:00.125098
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:55:00.888982
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 5 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:56:00.036065
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:57:01.407789
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:58:02.455982
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 22:59:01.421799
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:00:00.776305
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 5 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 10 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:01:01.900541
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:02:00.097556
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:03:00.423760
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:04:00.758056
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:05:01.262409
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 5 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:06:00.516229
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:07:00.176308
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:08:01.312299
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:09:00.949785
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:10:01.064392
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 5 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m 10 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:11:01.875966
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:12:00.315783
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
+[36mapp_1  |[0m DateTime:  2021-05-10 23:13:00.678739
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000202 High: 0.00000203 Close: 0.00000202
+[36mapp_1  |[0m DateTime:  2021-05-10 23:14:01.049578
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000202 Low: 0.00000201 High: 0.00000202 Close: 0.00000201
+[36mapp_1  |[0m DateTime:  2021-05-10 23:15:04.061072
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000201 Low: 0.00000201 High: 0.00000201 Close: 0.00000201
+[36mapp_1  |[0m 5 Minuto : Open: 0.00000203 Low: 0.00000201 High: 0.00000203 Close: 0.00000201
+[36mapp_1  |[0m DateTime:  2021-05-10 23:16:00.038902
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000201 Low: 0.00000201 High: 0.00000201 Close: 0.00000201
+[36mapp_1  |[0m DateTime:  2021-05-10 23:17:00.520992
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000201 Low: 0.00000201 High: 0.00000201 Close: 0.00000201
 Gracefully stopping... (press Ctrl+C again to force)

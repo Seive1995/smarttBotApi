@@ -170,8 +170,8 @@ def salvarCandlesCadaMinuto(now):
     global dadosAtualizadoFechaduraCadaMinuto
     print("DateTime: ", str(now))
     print("1 Minuto :","Open: " + dadosAtualizadoAberturaCadaMinuto['BTC_BTS'] + " Low: " + dadosAtualizadoMinimoCadaMinuto['BTC_BTS'] + " High: " + dadosAtualizadoMaximoCadaMinuto['BTC_BTS'] + " Close: "+ dadosAtualizadoFechaduraCadaMinuto['BTC_BTS'])
-    #salvarCandlesNoBanco(1, dadosAtualizadoAberturaCadaMinuto, dadosAtualizadoMinimoCadaMinuto, dadosAtualizadoMaximoCadaMinuto, dadosAtualizadoFechaduraCadaMinuto, now)
-    #Atualizando os dados de abertura a cada minuto para cada ativo
+    salvarCandlesNoBanco(1, dadosAtualizadoAberturaCadaMinuto, dadosAtualizadoMinimoCadaMinuto, dadosAtualizadoMaximoCadaMinuto, dadosAtualizadoFechaduraCadaMinuto, now)
+    #Resertando  dados de candles de 1 min de cada ativo para seus preços atuais.
     for key, value in dadosAtualizadoPorSegundo.items():
         resertarCandlesPorPeriodicidade(1, key, value)    
     if now.minute % 5 == 0:
@@ -185,8 +185,8 @@ def salvarCandlesCadaCincoMinutos(now):
     global dadosAtualizadoFechaduraCadaCincoMinutos
 
     print("5 Minuto :","Open: " + dadosAtualizadoAberturaCadaCincoMinutos['BTC_BTS'] + " Low: " + dadosAtualizadoMinimoCadaCincoMinutos['BTC_BTS'] + " High: " + dadosAtualizadoMaximoCadaCincoMinutos['BTC_BTS'] + " Close: "+ dadosAtualizadoFechaduraCadaCincoMinutos['BTC_BTS'])
-    #salvarCandlesNoBanco(5, dadosAtualizadoAberturaCadaCincoMinutos, dadosAtualizadoMinimoCadaCincoMinutos, dadosAtualizadoMaximoCadaCincoMinutos, dadosAtualizadoFechaduraCadaCincoMinutos, now)
-    #Atualizando os dados de abertura a cinco minutos para cada ativo
+    salvarCandlesNoBanco(5, dadosAtualizadoAberturaCadaCincoMinutos, dadosAtualizadoMinimoCadaCincoMinutos, dadosAtualizadoMaximoCadaCincoMinutos, dadosAtualizadoFechaduraCadaCincoMinutos, now)
+    #Resertando dados de candles de 5 minutos de cada ativo para seus preços atuais
     for key, value in dadosAtualizadoPorSegundo.items():
         resertarCandlesPorPeriodicidade(5, key, value)            
     if now.minute % 10 == 0:
@@ -201,8 +201,8 @@ def salvarCandlesCadaDezMinutos(now):
 
     print("10 Minuto :","Open: " + dadosAtualizadoAberturaCadaDezMinutos['BTC_BTS'] + " Low: " + dadosAtualizadoMinimoCadaDezMinutos['BTC_BTS'] + " High: " + dadosAtualizadoMaximoCadaDezMinutos['BTC_BTS'] + " Close: "+ dadosAtualizadoFechaduraCadaDezMinutos['BTC_BTS'])
 
-    #salvarCandlesNoBanco(10, dadosAtualizadoAberturaCadaDezMinutos, dadosAtualizadoMinimoCadaDezMinutos, dadosAtualizadoMaximoCadaDezMinutos, dadosAtualizadoFechaduraCadaDezMinutos, now)
-    #Atualizando os dados de abertura a Dez minutos para cada ativo
+    salvarCandlesNoBanco(10, dadosAtualizadoAberturaCadaDezMinutos, dadosAtualizadoMinimoCadaDezMinutos, dadosAtualizadoMaximoCadaDezMinutos, dadosAtualizadoFechaduraCadaDezMinutos, now)
+    #Resertando dados de candles de 10 min de cada ativo para seus preços atuais
     for key, value in dadosAtualizadoPorSegundo.items():
         resertarCandlesPorPeriodicidade(10, key, value)    
     
