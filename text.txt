@@ -10,14 +10,14 @@ Step 4/6 : RUN pip install -r requirements.txt
  ---> Using cache
  ---> 51890a9ac94c
 Step 5/6 : COPY app.py app.py
- ---> 49581dbd1723
+ ---> Using cache
+ ---> 0a6065dc8a9a
 Step 6/6 : CMD ["python", "-u", "app.py"]
- ---> Running in 2ac9af9d0e6f
-Removing intermediate container 2ac9af9d0e6f
- ---> 02510dab10ed
+ ---> Using cache
+ ---> 43272626dfab
 
-Successfully built 02510dab10ed
-Successfully tagged docker_python_sql_tutorial_app:latest
+Successfully built 43272626dfab
+Successfully tagged smarttbotapi_app:latest
 Step 1/5 : FROM postgres:latest
  ---> 26c8bcd8b719
 Step 2/5 : ENV POSTGRES_PASSWORD=secret
@@ -30,23 +30,22 @@ Step 4/5 : ENV POSTGRES_DB=database
  ---> Using cache
  ---> e9b1a4c9a6f4
 Step 5/5 : COPY create_fixtures.sql /docker-entrypoint-initdb.d/create_fixtures.sql
- ---> 8e2d2f84d47e
+ ---> Using cache
+ ---> 15b60dcb74ce
 
-Successfully built 8e2d2f84d47e
-Successfully tagged docker_python_sql_tutorial_db:latest
-Attaching to docker_python_sql_tutorial_app_1, docker_python_sql_tutorial_db_1
-[36mapp_1  |[0m   File "/code/app.py", line 95
-[36mapp_1  |[0m     salvarCandlesCadaDezMinutos(now):
-[36mapp_1  |[0m                                      ^
-[36mapp_1  |[0m SyntaxError: invalid syntax
-[36mdocker_python_sql_tutorial_app_1 exited with code 1
-[0m[33mdb_1   |[0m 
+Successfully built 15b60dcb74ce
+Successfully tagged smarttbotapi_db:latest
+Attaching to smarttbotapi_app_1, smarttbotapi_db_1
+[33mdb_1   |[0m 
 [33mdb_1   |[0m PostgreSQL Database directory appears to contain a database; Skipping initialization
 [33mdb_1   |[0m 
-[33mdb_1   |[0m 2021-05-07 17:49:35.505 UTC [1] LOG:  starting PostgreSQL 13.2 (Debian 13.2-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
-[33mdb_1   |[0m 2021-05-07 17:49:35.513 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
-[33mdb_1   |[0m 2021-05-07 17:49:35.514 UTC [1] LOG:  listening on IPv6 address "::", port 5432
-[33mdb_1   |[0m 2021-05-07 17:49:35.520 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
-[33mdb_1   |[0m 2021-05-07 17:49:35.542 UTC [25] LOG:  database system was shut down at 2021-05-07 16:17:12 UTC
-[33mdb_1   |[0m 2021-05-07 17:49:35.691 UTC [1] LOG:  database system is ready to accept connections
+[33mdb_1   |[0m 2021-05-10 22:31:11.673 UTC [1] LOG:  starting PostgreSQL 13.2 (Debian 13.2-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+[33mdb_1   |[0m 2021-05-10 22:31:11.688 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[33mdb_1   |[0m 2021-05-10 22:31:11.688 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+[33mdb_1   |[0m 2021-05-10 22:31:11.723 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[33mdb_1   |[0m 2021-05-10 22:31:11.761 UTC [25] LOG:  database system was shut down at 2021-05-10 22:30:28 UTC
+[33mdb_1   |[0m 2021-05-10 22:31:11.886 UTC [1] LOG:  database system is ready to accept connections
+[36mapp_1  |[0m Application started
+[36mapp_1  |[0m DateTime:  2021-05-10 22:31:15.347490
+[36mapp_1  |[0m 1 Minuto : Open: 0.00000203 Low: 0.00000203 High: 0.00000203 Close: 0.00000203
 Gracefully stopping... (press Ctrl+C again to force)
